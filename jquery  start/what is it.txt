@@ -1,0 +1,106 @@
+source 
+https://jquery.com/
+
+
+What is jQuery?
+jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+other  similar projects , 
+qunit , sizzle .
+
+A Brief Look
+DOM Traversal and Manipulation
+Get the <button> element with the class 'continue' and change its HTML to 'Next Step...'
+
+$( "button.continue" ).html( "Next Step..." )
+Event Handling
+Show the #banner-message element that is hidden with display:none in its CSS when any button in #button-container is clicked.
+
+var hiddenBox = $( "#banner-message" );
+$( "#button-container button" ).on( "click", function( event ) {
+  hiddenBox.show();
+});
+Ajax
+Call a local script on the server /api/getWeather with the query parameter zipcode=97201 and replace the element #weather-temp's html with the returned text.
+
+$.ajax({
+  url: "/api/getWeather",
+  data: {
+    zipcode: 97201
+  },
+  success: function( result ) {
+    $( "#weather-temp" ).html( "<strong>" + result + "</strong> degrees" );
+  }
+});
+
+
+/////////////////////////////////////////////////
+
+learn books online about jquery to learn more 
+
+books are available at the buttom of the site .
+
+you will find more on the support tab on the top 
+
+
+/////////////////////////////////////////////////
+
+source 
+https://webdesignledger.com/jquery-plugins-for-improving-website-navigation/
+Henry Jones
+Henry Jones is a web developer, designer, and entrepreneur with over 14 years of experience. He is the founder of WDL and ThemeTrust.
+
+
+9 JQuery Plugins For Improving Website Navigation
+
+JQUERYTOOLS9 JQuery Plugins For Improving Website NavigationHenry JonesAugust 15, 20133 Comments02.4k
+Navigation is arguably the most important part of website. Without it, visitors would not be able to move from page to page and view the content. Thinking about the best approach to your website navigation is a very important part of the creative process. So, as designers and developers, it’s good to know that we have tools like jQuery that can make our life easier. For today’s post we will show you some handy jQuery plugins to help you in the task of delivering a nice and smooth navigation experience for your users.
+
+
+MeanMenu
+A free jQuery Responsive Menu plugin for you to Hide or show menu children, Target navigation element to swap out with MeanMenu, Control screen width at which MeanMenu activates and much more.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+Sidr
+The best jQuery plugin for creating side menus and the easiest way for doing your menu responsive.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+Toolbar.Js
+Toolbar allows you to quickly create tooltip style toolbars for use in web applications and websites. The toolbar is easily customizable using the twitter bootstrap icons and provides flexibility around the toolbars display and number of icons.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+JPanelMenu
+jPanelMenu is a jQuery plugin that creates a paneled-style menu (like the type seen in the mobile versions of Facebook and Google, as well as in many native iPhone applications). Just click on the menu button (the top left of this page) to see it in action.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+Intro.Js
+Better introductions for websites and features with a step-by-step guide for your projects.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+JPaginator
+jPaginator is a jQuery plugin for pagination. It’s fun, intuitive, it comes with a slider and you can ask for an unlimited number of pages. Use it with a unique element, for more details please have a look at the code of demo1 and the plugin’s options.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+Smart Menus
+Website menus that work on all devices.
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+SlimMenu
+slimMenu is a lightweight jQuery plugin, which is made to create responsive and multi-level navigation menus on the fly.
+With slimMenu, you’ll no longer struggle with media queries to create responsive menus, or any other heavy plugins to create multi-level nested menus. slimMenu does both job for you and it’s only 5KB(2.5KB minified)!
+
+9 jQuery Plugins for Enhancing Website Navigation
+
+Navgoco
+Navgoco is a simple JQuery plugin which turns a nested unordered list of links into a beautiful vertical multi-level slide navigation, with ability to preserve expanded submenus between sessions by using cookies and optionally act as an accordion menu.
+
+
+/////////////////////////////////////////////////
+
